@@ -2,6 +2,7 @@ package com.example.testgame;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.TranslateAnimation;
@@ -15,10 +16,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageButton btnTest = findViewById(R.id.btnTest);
-        TextView txtTest = findViewById(R.id.txtTest);
+        ImageButton btnTest = findViewById(R.id.btnStart);
 
-        TranslateAnimation animation = new TranslateAnimation(-200.0f, 200.0f, 0.0f, 0.0f);
+        TranslateAnimation animation = new TranslateAnimation(0.0f, 0.0f, btnTest.getY() + 10.0f,  btnTest.getY() - 10.0f);
 
         animation.setDuration(2000);
         animation.setRepeatCount(-1);
@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         btnTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtTest.setText("The button works");
+                startActivity(new Intent(getApplicationContext(), MainActivity2.class));
+                finish();
             }
         });
     }
