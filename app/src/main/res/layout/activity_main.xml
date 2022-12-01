@@ -26,7 +26,7 @@
           android:layout_gravity="center"
           android:layout_marginBottom="152dp"
           android:background="@android:color/transparent"
-          android:contentDescription="@string/button"
+          android:contentDescription="@string/txtButton"
           android:src="@drawable/start">
 
       </ImageButton>
