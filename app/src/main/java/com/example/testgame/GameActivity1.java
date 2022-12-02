@@ -104,6 +104,8 @@ public class GameActivity1 extends AppCompatActivity {
         }
     }
 
+    // TEST
+
     public void btnScissors(View v) {
         int choice = 3;
         int ranInt = (int) (Math.random() * 4);
