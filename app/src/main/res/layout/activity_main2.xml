@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtGameSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtGameSelect"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:fontFamily="@font/lazy_dog"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtGameSelect"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:contentDescription="@string/txtGame1"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            >
+
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/btnGame1"
+            android:contentDescription="@string/txtGame1Start"
+            android:src="@drawable/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            >
+
+        </ImageButton>
+
+        <ImageView
+            android:contentDescription="@string/txtGame2"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            >
+
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/btnGame2"
+            android:contentDescription="@string/txtGame2Start"
+            android:src="@drawable/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            >
+
+        </ImageButton>
+
+    </LinearLayout>
+
+</RelativeLayout>
