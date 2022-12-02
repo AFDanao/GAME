@@ -7,9 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageButton;
-import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +26,12 @@ public class MainActivity extends AppCompatActivity {
         animation.setFillAfter(true);
         btnTest.startAnimation(animation);
 
-        btnTest.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), MainActivity2.class));
-                finish();
-            }
-        });
+        btnTest.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+        startActivity(new Intent(getApplicationContext(), MainActivity2.class));
+        finish();
     }
 }
