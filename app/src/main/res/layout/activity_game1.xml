@@ -1,9 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context=".GameActivity1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtGame1Welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtGame1Welcome"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:fontFamily="@font/lazy_dog"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:contentDescription="@string/txtAI"
+            android:id="@+id/imgAI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="start"
+            android:layout_marginStart="75dp"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+
+        <ImageView
+            android:contentDescription="@string/txtPlayer"
+            android:id="@+id/imgPlayer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="75dp"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+
+        <ImageButton
+            android:contentDescription="@string/txtRock"
+            android:id="@+id/btnRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageButton>
+
+        <ImageButton
+            android:contentDescription="@string/txtPaper"
+            android:id="@+id/btnPaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            >
+
+        </ImageButton>
+
+        <ImageButton
+            android:contentDescription="@string/txtScissors"
+            android:id="@+id/btnScissors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent"
+            >
+
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/txtGame1Instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnPaper"
+            android:layout_marginBottom="20dp"
+            android:layout_centerInParent="true"
+            android:text="@string/txtGame1Instructions"
+            android:fontFamily="@font/lazy_dog"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imgPlayer"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="85dp"
+            android:fontFamily="@font/lazy_dog"
+            android:text="@string/txtPlayer"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtPlayerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgPlayer"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="85dp"
+            android:fontFamily="@font/lazy_dog"
+            android:text="@string/txtScorePlayer"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imgAI"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="115dp"
+            android:fontFamily="@font/lazy_dog"
+            android:text="@string/txtAI"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtAIScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgAI"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="13dp"
+            android:fontFamily="@font/lazy_dog"
+            android:text="@string/txtScoreAI"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lazy_dog"
+            android:text="@string/txtGoal1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtOutCome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/lazy_dog"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtLogic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_below="@id/txtOutCome"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/lazy_dog"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            >
+
+        </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>
