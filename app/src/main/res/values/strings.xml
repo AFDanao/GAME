@@ -16,4 +16,16 @@
     <!-- Headings -->
     <string name="txtGameSelect">Select A Game To Play</string>
 
+    <!-- Game 1 Texts -->
+    <string name="txtGame1Welcome">Welcome to Jack en Poy</string>
+    <string name="txtGame1Instructions">Press the button of your choice:</string>
+    <string name="txtGoal1">First to get 10pts wins the game!</string>
+    <string name="txtScoreAI">Score:\n0</string>
+    <string name="txtScorePlayer">Score:\n0</string>
+    <string name="txtPlayer">Player</string>
+    <string name="txtAI">AI</string>
+    <string name="txtRock">Rock</string>
+    <string name="txtPaper">Paper</string>
+    <string name="txtScissors">Scissors</string>
+
 </resources>
