@@ -29,26 +29,28 @@
         android:layout_marginBottom="10dp" >
 
         <ImageView
-            android:contentDescription="@string/txtAI"
             android:id="@+id/imgAI"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@id/txtAIScore"
             android:layout_alignParentStart="true"
             android:layout_centerInParent="true"
             android:layout_gravity="start"
             android:layout_marginStart="75dp"
+            android:contentDescription="@string/txtAI"
             android:src="@drawable/ic_launcher_background">
 
         </ImageView>
 
         <ImageView
-            android:contentDescription="@string/txtPlayer"
             android:id="@+id/imgPlayer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@id/txtPlayerScore"
             android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
             android:layout_marginEnd="75dp"
+            android:contentDescription="@string/txtPlayer"
             android:src="@drawable/ic_launcher_background">
 
         </ImageView>
@@ -56,6 +58,7 @@
         <ImageButton
             android:contentDescription="@string/txtRock"
             android:id="@+id/btnRock"
+            android:onClick="btnRock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -65,35 +68,41 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:background="@android:color/transparent"
-            android:src="@drawable/ic_launcher_background">
+            android:src="@drawable/rock">
 
         </ImageButton>
 
         <ImageButton
-            android:contentDescription="@string/txtPaper"
             android:id="@+id/btnPaper"
+            android:onClick="btnPaper"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_centerInParent="true"
             android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:background="@android:color/transparent"
-            >
+            android:contentDescription="@string/txtPaper"
+            android:src="@drawable/paper">
 
         </ImageButton>
 
         <ImageButton
-            android:contentDescription="@string/txtScissors"
             android:id="@+id/btnScissors"
+            android:onClick="btnScissors"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:src="@drawable/ic_launcher_background"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:background="@android:color/transparent"
-            >
+            android:contentDescription="@string/txtScissors"
+            android:src="@drawable/ic_launcher_background">
 
         </ImageButton>
 
@@ -102,13 +111,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/btnPaper"
-            android:layout_marginBottom="20dp"
             android:layout_centerInParent="true"
-            android:text="@string/txtGame1Instructions"
+            android:layout_marginBottom="20dp"
             android:fontFamily="@font/lazy_dog"
-            android:textSize="30sp"
+            android:text="@string/txtGame1Instructions"
             android:textColor="@color/black"
-            >
+            android:textSize="30sp"
+            android:textAlignment="center">
 
         </TextView>
 
@@ -131,13 +140,13 @@
             android:id="@+id/txtPlayerScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/imgPlayer"
+            android:layout_above="@id/txtGame1Instructions"
             android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
             android:layout_marginTop="13dp"
-            android:layout_marginEnd="85dp"
+            android:layout_marginEnd="110dp"
             android:fontFamily="@font/lazy_dog"
-            android:text="@string/txtScorePlayer"
+            android:text="00"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="40sp">
@@ -163,13 +172,13 @@
             android:id="@+id/txtAIScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/imgAI"
+            android:layout_above="@id/txtGame1Instructions"
             android:layout_alignParentStart="true"
             android:layout_centerInParent="true"
-            android:layout_marginStart="85dp"
+            android:layout_marginStart="110dp"
             android:layout_marginTop="13dp"
             android:fontFamily="@font/lazy_dog"
-            android:text="@string/txtScoreAI"
+            android:text="00"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="40sp">
