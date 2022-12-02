@@ -1,6 +1,6 @@
 <resources>
     <!-- App Name -->
-    <string name="app_name">TestGame</string>
+    <string name="app_name">Om-Nom-Nom</string>
 
     <!-- Image Descriptions -->
     <string name="txtBackground">This is the background</string>
@@ -27,5 +27,14 @@
     <string name="txtRock">Rock</string>
     <string name="txtPaper">Paper</string>
     <string name="txtScissors">Scissors</string>
+
+    <!-- Game 1 Logic Outcomes -->
+    <string name="txtBoth">Same choice!. No Points!</string>
+    <string name="txtWonRock">Rock beats scissors!</string>
+    <string name="txtWonPaper">Paper beats rock!</string>
+    <string name="txtWonScissors">Scissors beats paper!</string>
+
+    <string name="txtWon">You WON!</string>
+    <string name="txtLost">You LOST!</string>
 
 </resources>
