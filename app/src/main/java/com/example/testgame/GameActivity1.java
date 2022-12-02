@@ -11,5 +11,6 @@ public class GameActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game1);
         //Alams pogi goat ll the time
+        //Hotdog
     }
 }
