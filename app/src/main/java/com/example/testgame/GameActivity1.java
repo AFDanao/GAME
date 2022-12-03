@@ -77,7 +77,7 @@ public class GameActivity1 extends AppCompatActivity {
             inc(true);
         } else if (ranInt == 3) {
             imgPlayer.setImageResource(R.drawable.rock);
-            imgAI.setImageResource(R.drawable.start); // SCISSORS
+            imgAI.setImageResource(R.drawable.scissors);
             txtLogic.setText(R.string.txtWonRock);
             inc(false);
         }
@@ -93,7 +93,7 @@ public class GameActivity1 extends AppCompatActivity {
             txtLogic.setText(R.string.txtBoth);
         } else if (ranInt == 3) {
             imgPlayer.setImageResource(R.drawable.paper);
-            imgAI.setImageResource(R.drawable.start); // SCISSORS
+            imgAI.setImageResource(R.drawable.scissors);
             txtLogic.setText(R.string.txtWonScissors);
             inc(true);
         } else if (ranInt == 1) {
@@ -111,16 +111,16 @@ public class GameActivity1 extends AppCompatActivity {
         int ranInt = (int) (Math.random() * 4);
 
         if (ranInt == choice) {
-            imgPlayer.setImageResource(R.drawable.start);
-            imgAI.setImageResource(R.drawable.start);
+            imgPlayer.setImageResource(R.drawable.scissors);
+            imgAI.setImageResource(R.drawable.scissors);
             txtLogic.setText(R.string.txtBoth);
         } else if (ranInt == 1) {
-            imgPlayer.setImageResource(R.drawable.start);
+            imgPlayer.setImageResource(R.drawable.scissors);
             imgAI.setImageResource(R.drawable.rock);
             txtLogic.setText(R.string.txtWonRock);
             inc(true);
         } else if (ranInt == 2) {
-            imgPlayer.setImageResource(R.drawable.start);
+            imgPlayer.setImageResource(R.drawable.scissors);
             imgAI.setImageResource(R.drawable.paper);
             txtLogic.setText(R.string.txtWonScissors);
             inc(false);
