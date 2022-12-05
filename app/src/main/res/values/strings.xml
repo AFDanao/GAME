@@ -13,6 +13,13 @@
     <string name="txtGame1Start">This is the image button for game 1</string>
     <string name="txtGame2Start">This is the button for game 2</string>
 
+    <!-- Buttons -->
+    <string name="txtBack">Back</string>
+
+    <!-- Outcome Texts -->
+    <string name="txtRetry">Retry</string>
+    <string name="txtChange">Change</string>
+
     <!-- Headings -->
     <string name="txtGameSelect">Select A Game To Play</string>
 
@@ -36,5 +43,7 @@
 
     <string name="txtWon">You WON!</string>
     <string name="txtLost">You LOST!</string>
+
+    <string name="txtZeros">00</string>
 
 </resources>

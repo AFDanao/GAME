@@ -2,9 +2,10 @@ package com.example.testgame;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -13,11 +14,17 @@ public class GameActivity1 extends AppCompatActivity {
 
     TextView txtAIScore;
     TextView txtPlayerScore;
-    TextView txtOutCome;
     TextView txtLogic;
 
     ImageView imgAI;
     ImageView imgPlayer;
+
+    ImageButton btnRock;
+    ImageButton btnPaper;
+    ImageButton btnScissors;
+
+    int y;
+    int z;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,20 +33,66 @@ public class GameActivity1 extends AppCompatActivity {
 
         txtAIScore = findViewById(R.id.txtAIScore);
         txtPlayerScore = findViewById(R.id.txtPlayerScore);
-        txtOutCome = findViewById(R.id.txtOutCome);
         txtLogic = findViewById(R.id.txtLogic);
 
         imgAI = findViewById(R.id.imgAI);
         imgPlayer = findViewById(R.id.imgPlayer);
+
+        btnRock = findViewById(R.id.btnRock);
+        btnPaper = findViewById(R.id.btnPaper);
+        btnScissors = findViewById(R.id.btnScissors);
+
+        y = Integer.parseInt(txtAIScore.getText().toString());
+        z = Integer.parseInt(txtPlayerScore.getText().toString());
+    }
+
+    public void btnBack() {
+        finish();
+    }
+
+    public void createNewDialog() {
+        AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+        final View popupView = getLayoutInflater().inflate(R.layout.popup, null);
+
+        Button btnChange = popupView.findViewById(R.id.btnChange);
+        Button btnRetry = popupView.findViewById(R.id.btnRetry);
+
+        TextView txtOutCome = popupView.findViewById(R.id.txtOutCome);
+
+        if (y == 10) {
+            txtOutCome.setText(R.string.txtLost);
+        } else {
+            txtOutCome.setText(R.string.txtWon);
+        }
+
+        dialogBuilder.setView(popupView);
+        AlertDialog dialog = dialogBuilder.create();
+        dialog.show();
+        dialog.setCanceledOnTouchOutside(false);
+
+        btnChange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        btnRetry.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                btnRock.setEnabled(true);
+                btnPaper.setEnabled(true);
+                btnScissors.setEnabled(true);
+                txtAIScore.setText(R.string.txtZeros);
+                txtPlayerScore.setText(R.string.txtZeros);
+                y = 0;
+                z = 0;
+                dialog.dismiss();
+            }
+        });
     }
 
     public void inc(Boolean x) {
-        ImageButton btnRock = findViewById(R.id.btnRock);
-        ImageButton btnPaper = findViewById(R.id.btnPaper);
-        ImageButton btnScissors = findViewById(R.id.btnScissors);
-
-        int y = Integer.parseInt(txtAIScore.getText().toString());
-        int z = Integer.parseInt(txtPlayerScore.getText().toString());
 
         if (x) {
             y++;
@@ -50,15 +103,15 @@ public class GameActivity1 extends AppCompatActivity {
         }
 
         if (y == 10) {
-            txtOutCome.setText(R.string.txtLost);
             btnRock.setEnabled(false);
             btnPaper.setEnabled(false);
             btnScissors.setEnabled(false);
+            createNewDialog();
         } else if (z == 10) {
-            txtOutCome.setText(R.string.txtWon);
             btnRock.setEnabled(false);
             btnPaper.setEnabled(false);
             btnScissors.setEnabled(false);
+            createNewDialog();
         }
     }
 
@@ -103,8 +156,6 @@ public class GameActivity1 extends AppCompatActivity {
             inc(false);
         }
     }
-
-    // TEST
 
     public void btnScissors(View v) {
         int choice = 3;
