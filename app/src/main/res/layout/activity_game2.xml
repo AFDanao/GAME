@@ -4,6 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameActivity2">
+    tools:context=".GameActivity2"
+    android:orientation="vertical"
+    android:background="@drawable/backGround"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="410dp"
+        android:layout_height="100dp"
+        android:text="Guessing Game"
+        android:fontFamily="@font/SitkaVF"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
