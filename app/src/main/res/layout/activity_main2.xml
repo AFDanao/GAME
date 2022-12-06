@@ -32,15 +32,23 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <ImageView
-            android:contentDescription="@string/txtGame1"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            >
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="256dp"
+            android:layout_height="171dp"
+            android:src="@drawable/rockpaperscissors"
+            android:layout_margin="20dp">
 
-        </ImageView>
+        </pl.droidsonroids.gif.GifImageView>
+
+<!--        <ImageView-->
+<!--            android:contentDescription="@string/txtGame1"-->
+<!--            android:src="@drawable/ic_launcher_background"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="20dp"-->
+<!--            >-->
+
+<!--        </ImageView>-->
 
         <ImageButton
             android:id="@+id/btnGame1"
