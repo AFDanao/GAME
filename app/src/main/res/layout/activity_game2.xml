@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backGround"
+    android:background="@drawable/background2"
     android:orientation="vertical"
     tools:context=".GameActivity2">
 
@@ -16,7 +16,7 @@
             android:id="@+id/titleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/SitkaVF"
+            android:fontFamily="@font/sitka"
             android:text="Guessing Game"
             android:textSize="35sp"
             android:layout_marginTop="50dp"
@@ -26,7 +26,7 @@
             android:id="@+id/aceHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/aceHeart"
+            android:src="@drawable/ace_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
 
@@ -34,7 +34,7 @@
             android:id="@+id/twoHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/twoHeart"
+            android:src="@drawable/two_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
 
@@ -42,7 +42,7 @@
             android:id="@+id/threeHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/threeHeart"
+            android:src="@drawable/three_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
 
@@ -50,7 +50,7 @@
             android:id="@+id/fourHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/fourHeart"
+            android:src="@drawable/four_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
 
@@ -58,7 +58,7 @@
             android:id="@+id/fiveHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/fiveHeart"
+            android:src="@drawable/five_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
 
@@ -66,7 +66,7 @@
             android:id="@+id/sixHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/sixHeart"
+            android:src="@drawable/six_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="45dp"/>
 
@@ -74,7 +74,7 @@
             android:id="@+id/sevenHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/sevenHeart"
+            android:src="@drawable/seven_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="45dp"/>
 
@@ -82,7 +82,7 @@
             android:id="@+id/eightHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/eightHeart"
+            android:src="@drawable/eight_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
 
@@ -90,7 +90,7 @@
             android:id="@+id/nineHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/nineHeart"
+            android:src="@drawable/nine_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
 
@@ -98,7 +98,7 @@
             android:id="@+id/tenHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/tenHeart"
+            android:src="@drawable/ten_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
 
@@ -106,7 +106,7 @@
             android:id="@+id/jackHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/jackHeart"
+            android:src="@drawable/jack_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
 
@@ -114,7 +114,7 @@
             android:id="@+id/queenHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/queenHeart"
+            android:src="@drawable/queen_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
 
@@ -122,7 +122,7 @@
             android:id="@+id/kingHeart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/kingHeart"
+            android:src="@drawable/king_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
 
@@ -142,7 +142,7 @@
             android:id="@+id/aceHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/aceHeart"
+            android:src="@drawable/ace_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
 
@@ -150,7 +150,7 @@
             android:id="@+id/twoHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/twoHeart"
+            android:src="@drawable/two_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
 
@@ -158,7 +158,7 @@
             android:id="@+id/threeHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/threeHeart"
+            android:src="@drawable/three_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
 
@@ -166,7 +166,7 @@
             android:id="@+id/fourHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/fourHeart"
+            android:src="@drawable/four_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
 
@@ -174,7 +174,7 @@
             android:id="@+id/fiveHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/fiveHeart"
+            android:src="@drawable/five_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
 
@@ -182,7 +182,7 @@
             android:id="@+id/sixHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/sixHeart"
+            android:src="@drawable/six_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
 
@@ -190,7 +190,7 @@
             android:id="@+id/sevenHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/sevenHeart"
+            android:src="@drawable/seven_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="275dp"/>
 
@@ -198,7 +198,7 @@
             android:id="@+id/eightHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/eightHeart"
+            android:src="@drawable/eight_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="275dp"/>
 
@@ -206,7 +206,7 @@
             android:id="@+id/nineHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/nineHeart"
+            android:src="@drawable/nine_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="275dp"/>
 
@@ -214,7 +214,7 @@
             android:id="@+id/tenHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/tenHeart"
+            android:src="@drawable/ten_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="275dp"/>
 
@@ -222,7 +222,7 @@
             android:id="@+id/jackHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/jackHeart"
+            android:src="@drawable/jack_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="280dp"/>
 
@@ -230,7 +230,7 @@
             android:id="@+id/queenHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/queenHeart"
+            android:src="@drawable/queen_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="280dp"/>
 
@@ -238,7 +238,7 @@
             android:id="@+id/kingHeartTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/kingHeart"
+            android:src="@drawable/king_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="280dp"/>
 
@@ -250,6 +250,7 @@
             android:textStyle="bold"
             android:layout_below="@+id/queenHeartTwo"
             android:layout_marginLeft="280dp"/>
+
 
 
 

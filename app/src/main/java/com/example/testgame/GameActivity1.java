@@ -46,7 +46,7 @@ public class GameActivity1 extends AppCompatActivity {
         z = Integer.parseInt(txtPlayerScore.getText().toString());
     }
 
-    public void btnBack() {
+    public void btnBack(View v) {
         finish();
     }
 
@@ -83,8 +83,14 @@ public class GameActivity1 extends AppCompatActivity {
                 btnRock.setEnabled(true);
                 btnPaper.setEnabled(true);
                 btnScissors.setEnabled(true);
+
+                txtLogic.setText("");
                 txtAIScore.setText(R.string.txtZeros);
                 txtPlayerScore.setText(R.string.txtZeros);
+
+                imgAI.setImageResource(R.drawable.question_mark);
+                imgPlayer.setImageResource(R.drawable.question_mark);
+
                 y = 0;
                 z = 0;
                 dialog.dismiss();
