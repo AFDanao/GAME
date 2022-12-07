@@ -251,6 +251,30 @@
             android:layout_below="@+id/queenHeartTwo"
             android:layout_marginLeft="280dp"/>
 
+        <Button
+            android:id="@+id/lowerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lower"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:id="@+id/higherButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Higher"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="275dp"/>
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="160dp"
+
 
 
 
