@@ -100,7 +100,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ten_heart"
             android:layout_marginTop="300dp"
-            android:layout_marginLeft="50dp"/>
+            android:layout_marginLeft="48dp"/>
 
         <ImageView
             android:id="@+id/jackHeart"
@@ -250,6 +250,145 @@
             android:textStyle="bold"
             android:layout_below="@+id/queenHeartTwo"
             android:layout_marginLeft="280dp"/>
+
+        <TextView
+            android:id="@+id/thirdCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third Card"
+            android:layout_marginTop="425dp"
+            android:layout_marginLeft="175dp"
+            android:textStyle="bold"
+
+        <Button
+            android:id="@+id/lowerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lower"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:id="@+id/higherButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Higher"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="275dp"/>
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="160dp"/>
+
+<!--        Third Card-->
+
+        <ImageView
+            android:id="@+id/aceHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ace_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="160dp"/>
+
+        <ImageView
+            android:id="@+id/twoHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/two_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="160dp"/>
+
+        <ImageView
+            android:id="@+id/threeHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/three_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="160dp"/>
+
+        <ImageView
+            android:id="@+id/fourHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/four_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="160dp"/>
+
+        <ImageView
+            android:id="@+id/fiveHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/five_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="160dp"/>
+
+        <ImageView
+            android:id="@+id/sixHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/six_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="160dp"/>
+
+        <ImageView
+            android:id="@+id/sevenHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/seven_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="165dp"/>
+
+        <ImageView
+            android:id="@+id/eightHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eight_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="165dp"/>
+
+        <ImageView
+            android:id="@+id/nineHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nine_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="165dp"/>
+
+        <ImageView
+            android:id="@+id/tenHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ten_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="165dp"/>
+
+        <ImageView
+            android:id="@+id/jackHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jack_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="170dp"/>
+
+        <ImageView
+            android:id="@+id/queenHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/queen_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="170dp"/>
+
+        <ImageView
+            android:id="@+id/kingHeartThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/king_heart"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="170dp"/>
 
 
 
