@@ -20,7 +20,20 @@
             android:text="Guessing Game"
             android:textSize="35sp"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="80dp"/>
+            android:layout_marginLeft="80dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/inBetweenText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sitka"
+            android:text="In Between"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="160dp"
+            android:textColor="@color/black"/>
 
         <ImageView
             android:id="@+id/aceHeart"
@@ -258,7 +271,7 @@
             android:text="Third Card"
             android:layout_marginTop="425dp"
             android:layout_marginLeft="175dp"
-            android:textStyle="bold"
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/lowerButton"
@@ -389,6 +402,42 @@
             android:src="@drawable/king_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="170dp"/>
+
+
+<!--        Higher/Lower/Win/Lose-->
+        <TextView
+            android:id="@+id/highLowText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Higher or lower?"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="145dp"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/winText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You win!"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="175dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:id="@+id/loseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You lose!"
+            android:layout_marginTop="460dp"
+            android:layout_marginLeft="175dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="@color/red"/>
+
 
 
 
