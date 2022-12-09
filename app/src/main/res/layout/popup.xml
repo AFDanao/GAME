@@ -7,15 +7,14 @@
     android:background="@drawable/background"
     >
 
-    <ImageView
+    <pl.droidsonroids.gif.GifImageView
         android:id="@+id/imgOutCome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="167dp"
         android:layout_gravity="center"
-        android:src="@drawable/question_mark"
         >
 
-    </ImageView>
+    </pl.droidsonroids.gif.GifImageView>
 
     <TextView
         android:id="@+id/txtOutCome"
@@ -55,6 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="@font/lazy_dog"
+        android:backgroundTint="@color/orange"
         android:text="@string/txtRetry">
 
     </Button>
@@ -65,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:fontFamily="@font/lazy_dog"
+        android:backgroundTint="@color/orange"
         android:text="@string/txtChange">
 
     </Button>
