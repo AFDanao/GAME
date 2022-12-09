@@ -22,7 +22,6 @@
             android:layout_marginTop="50dp"
             android:layout_marginLeft="80dp"
             android:textColor="@color/black"/>
-
         <TextView
             android:id="@+id/inBetweenText"
             android:layout_width="wrap_content"
@@ -34,7 +33,6 @@
             android:layout_marginTop="100dp"
             android:layout_marginLeft="160dp"
             android:textColor="@color/black"/>
-
         <ImageView
             android:id="@+id/aceHeart"
             android:layout_width="wrap_content"
@@ -42,7 +40,6 @@
             android:src="@drawable/ace_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
-
         <ImageView
             android:id="@+id/twoHeart"
             android:layout_width="wrap_content"
@@ -50,7 +47,6 @@
             android:src="@drawable/two_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
-
         <ImageView
             android:id="@+id/threeHeart"
             android:layout_width="wrap_content"
@@ -58,7 +54,6 @@
             android:src="@drawable/three_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
-
         <ImageView
             android:id="@+id/fourHeart"
             android:layout_width="wrap_content"
@@ -66,7 +61,6 @@
             android:src="@drawable/four_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
-
         <ImageView
             android:id="@+id/fiveHeart"
             android:layout_width="wrap_content"
@@ -74,7 +68,6 @@
             android:src="@drawable/five_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="40dp"/>
-
         <ImageView
             android:id="@+id/sixHeart"
             android:layout_width="wrap_content"
@@ -82,7 +75,6 @@
             android:src="@drawable/six_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="45dp"/>
-
         <ImageView
             android:id="@+id/sevenHeart"
             android:layout_width="wrap_content"
@@ -90,7 +82,6 @@
             android:src="@drawable/seven_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="45dp"/>
-
         <ImageView
             android:id="@+id/eightHeart"
             android:layout_width="wrap_content"
@@ -98,7 +89,6 @@
             android:src="@drawable/eight_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
-
         <ImageView
             android:id="@+id/nineHeart"
             android:layout_width="wrap_content"
@@ -106,7 +96,6 @@
             android:src="@drawable/nine_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
-
         <ImageView
             android:id="@+id/tenHeart"
             android:layout_width="wrap_content"
@@ -114,7 +103,6 @@
             android:src="@drawable/ten_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="48dp"/>
-
         <ImageView
             android:id="@+id/jackHeart"
             android:layout_width="wrap_content"
@@ -122,7 +110,6 @@
             android:src="@drawable/jack_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
-
         <ImageView
             android:id="@+id/queenHeart"
             android:layout_width="wrap_content"
@@ -130,7 +117,6 @@
             android:src="@drawable/queen_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
-
         <ImageView
             android:id="@+id/kingHeart"
             android:layout_width="wrap_content"
@@ -138,7 +124,6 @@
             android:src="@drawable/king_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="50dp"/>
-
         <TextView
             android:id="@+id/firstCard"
             android:layout_width="wrap_content"
@@ -150,7 +135,6 @@
             android:textStyle="bold"/>
 
 <!--        Secondcard-->
-
         <ImageView
             android:id="@+id/aceHeartTwo"
             android:layout_width="wrap_content"
@@ -158,7 +142,6 @@
             android:src="@drawable/ace_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
-
         <ImageView
             android:id="@+id/twoHeartTwo"
             android:layout_width="wrap_content"
@@ -166,7 +149,6 @@
             android:src="@drawable/two_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
-
         <ImageView
             android:id="@+id/threeHeartTwo"
             android:layout_width="wrap_content"
@@ -174,7 +156,6 @@
             android:src="@drawable/three_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
-
         <ImageView
             android:id="@+id/fourHeartTwo"
             android:layout_width="wrap_content"
@@ -182,7 +163,6 @@
             android:src="@drawable/four_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
-
         <ImageView
             android:id="@+id/fiveHeartTwo"
             android:layout_width="wrap_content"
@@ -190,7 +170,6 @@
             android:src="@drawable/five_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
-
         <ImageView
             android:id="@+id/sixHeartTwo"
             android:layout_width="wrap_content"
@@ -198,7 +177,6 @@
             android:src="@drawable/six_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="270dp"/>
-
         <ImageView
             android:id="@+id/sevenHeartTwo"
             android:layout_width="wrap_content"
@@ -206,7 +184,6 @@
             android:src="@drawable/seven_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="275dp"/>
-
         <ImageView
             android:id="@+id/eightHeartTwo"
             android:layout_width="wrap_content"
@@ -214,7 +191,6 @@
             android:src="@drawable/eight_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="275dp"/>
-
         <ImageView
             android:id="@+id/nineHeartTwo"
             android:layout_width="wrap_content"
@@ -222,7 +198,6 @@
             android:src="@drawable/nine_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="275dp"/>
-
         <ImageView
             android:id="@+id/tenHeartTwo"
             android:layout_width="wrap_content"
@@ -230,7 +205,6 @@
             android:src="@drawable/ten_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="275dp"/>
-
         <ImageView
             android:id="@+id/jackHeartTwo"
             android:layout_width="wrap_content"
@@ -238,7 +212,6 @@
             android:src="@drawable/jack_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="280dp"/>
-
         <ImageView
             android:id="@+id/queenHeartTwo"
             android:layout_width="wrap_content"
@@ -246,7 +219,6 @@
             android:src="@drawable/queen_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="280dp"/>
-
         <ImageView
             android:id="@+id/kingHeartTwo"
             android:layout_width="wrap_content"
@@ -254,7 +226,6 @@
             android:src="@drawable/king_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="280dp"/>
-
         <TextView
             android:id="@+id/secondCard"
             android:layout_width="wrap_content"
@@ -263,7 +234,6 @@
             android:textStyle="bold"
             android:layout_below="@+id/queenHeartTwo"
             android:layout_marginLeft="280dp"/>
-
         <TextView
             android:id="@+id/thirdCard"
             android:layout_width="wrap_content"
@@ -280,7 +250,6 @@
             android:text="Lower"
             android:layout_marginTop="450dp"
             android:layout_marginLeft="50dp"/>
-
         <Button
             android:id="@+id/higherButton"
             android:layout_width="wrap_content"
@@ -288,7 +257,6 @@
             android:text="Higher"
             android:layout_marginTop="450dp"
             android:layout_marginLeft="275dp"/>
-
         <Button
             android:id="@+id/startButton"
             android:layout_width="wrap_content"
@@ -298,7 +266,6 @@
             android:layout_marginLeft="160dp"/>
 
 <!--        Third Card-->
-
         <ImageView
             android:id="@+id/aceHeartThree"
             android:layout_width="wrap_content"
@@ -306,7 +273,6 @@
             android:src="@drawable/ace_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="160dp"/>
-
         <ImageView
             android:id="@+id/twoHeartThree"
             android:layout_width="wrap_content"
@@ -314,7 +280,6 @@
             android:src="@drawable/two_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="160dp"/>
-
         <ImageView
             android:id="@+id/threeHeartThree"
             android:layout_width="wrap_content"
@@ -322,7 +287,6 @@
             android:src="@drawable/three_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="160dp"/>
-
         <ImageView
             android:id="@+id/fourHeartThree"
             android:layout_width="wrap_content"
@@ -330,7 +294,6 @@
             android:src="@drawable/four_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="160dp"/>
-
         <ImageView
             android:id="@+id/fiveHeartThree"
             android:layout_width="wrap_content"
@@ -338,7 +301,6 @@
             android:src="@drawable/five_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="160dp"/>
-
         <ImageView
             android:id="@+id/sixHeartThree"
             android:layout_width="wrap_content"
@@ -346,7 +308,6 @@
             android:src="@drawable/six_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="160dp"/>
-
         <ImageView
             android:id="@+id/sevenHeartThree"
             android:layout_width="wrap_content"
@@ -354,7 +315,6 @@
             android:src="@drawable/seven_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="165dp"/>
-
         <ImageView
             android:id="@+id/eightHeartThree"
             android:layout_width="wrap_content"
@@ -362,7 +322,6 @@
             android:src="@drawable/eight_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="165dp"/>
-
         <ImageView
             android:id="@+id/nineHeartThree"
             android:layout_width="wrap_content"
@@ -370,7 +329,6 @@
             android:src="@drawable/nine_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="165dp"/>
-
         <ImageView
             android:id="@+id/tenHeartThree"
             android:layout_width="wrap_content"
@@ -378,7 +336,6 @@
             android:src="@drawable/ten_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="165dp"/>
-
         <ImageView
             android:id="@+id/jackHeartThree"
             android:layout_width="wrap_content"
@@ -386,7 +343,6 @@
             android:src="@drawable/jack_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="170dp"/>
-
         <ImageView
             android:id="@+id/queenHeartThree"
             android:layout_width="wrap_content"
@@ -394,7 +350,6 @@
             android:src="@drawable/queen_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="170dp"/>
-
         <ImageView
             android:id="@+id/kingHeartThree"
             android:layout_width="wrap_content"
@@ -402,7 +357,6 @@
             android:src="@drawable/king_heart"
             android:layout_marginTop="300dp"
             android:layout_marginLeft="170dp"/>
-
 
 <!--        Higher/Lower/Win/Lose-->
         <TextView
@@ -415,7 +369,6 @@
             android:textColor="@color/black"
             android:fontFamily="serif"
             android:textStyle="bold"/>
-
         <TextView
             android:id="@+id/winText"
             android:layout_width="wrap_content"
@@ -426,7 +379,6 @@
             android:fontFamily="serif"
             android:textStyle="bold"
             android:textColor="@color/green"/>
-
         <TextView
             android:id="@+id/loseText"
             android:layout_width="wrap_content"
@@ -438,16 +390,6 @@
             android:textStyle="bold"
             android:textColor="@color/red"/>
 
-
-
-
-
-
-
     </RelativeLayout>
-
-
-
-
 
 </RelativeLayout>
