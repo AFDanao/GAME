@@ -3,12 +3,15 @@ package com.example.testgame;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import pl.droidsonroids.gif.GifImageView;
 
 public class GameActivity1 extends AppCompatActivity {
 
@@ -59,9 +62,13 @@ public class GameActivity1 extends AppCompatActivity {
 
         TextView txtOutCome = popupView.findViewById(R.id.txtOutCome);
 
+        GifImageView imgOutcome = popupView.findViewById(R.id.imgOutCome);
+
         if (y == 10) {
+            imgOutcome.setImageResource(R.drawable.lose);
             txtOutCome.setText(R.string.txtLost);
         } else {
+            imgOutcome.setImageResource(R.drawable.win);
             txtOutCome.setText(R.string.txtWon);
         }
 
