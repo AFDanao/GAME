@@ -161,8 +161,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/startButton"
-            android:layout_centerInParent="true"
-            android:layout_marginLeft="130dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="125dp"
             android:hint="Enter your guess"
             android:textColor="@color/black"
             android:textSize="20sp" />
