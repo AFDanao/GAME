@@ -46,4 +46,18 @@
 
     <string name="txtZeros">00</string>
 
+    <!-- Game 2 Texts -->
+    <string name="txtHiLow">Higher or Lower?</string>
+    <string name="txtStart">Start</string>
+    <string name="txtHigh">Higher</string>
+    <string name="txtLow">Lower</string>
+    <string name="txtThird">Third Card</string>
+    <string name="txtSecond">Second Card</string>
+    <string name="txtFirst">First Card</string>
+    <string name="txtGame2Welcome">In-Between</string>
+    <string name="txtGame2Welcome2">Guessing Game</string>
+    <string name="txtInput">Enter Your Bet</string>
+    <string name="txtNoDeal">NO DEAL</string>
+    <string name="txtDeal">DEAL</string>
+
 </resources>
