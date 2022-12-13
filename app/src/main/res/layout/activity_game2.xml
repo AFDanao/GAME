@@ -19,8 +19,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txtBack"
             android:backgroundTint="@color/orange"
-            android:fontFamily="@font/sitka"
-            >
+            android:fontFamily="@font/sitka">
 
         </Button>
 
@@ -38,8 +37,9 @@
             android:text="@string/txtGame2Welcome2"
             android:textSize="35sp"
             android:layout_marginTop="50dp"
-            android:layout_marginStart="80dp"
-            android:textColor="@color/black"/>
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
         <TextView
             android:id="@+id/inBetweenText"
             android:layout_width="wrap_content"
@@ -49,15 +49,16 @@
             android:textSize="15sp"
             android:textStyle="bold"
             android:layout_marginTop="100dp"
-            android:layout_marginStart="160dp"
-            android:textColor="@color/black"/>
+            android:layout_marginLeft="145dp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
         <ImageView
             android:id="@+id/cardOne"
             android:contentDescription="@string/txtFirst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
-            android:layout_marginStart="40dp"/>
+            android:layout_marginLeft="15dp"/>
 
         <TextView
             android:id="@+id/firstCard"
@@ -65,7 +66,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txtFirst"
             android:layout_marginTop="425dp"
-            android:layout_marginStart="58dp"
+            android:layout_marginLeft="28dp"
             android:textStyle="bold"/>
 
 <!--        Second Card-->
@@ -75,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
-            android:layout_marginStart="270dp"/>
+            android:layout_marginLeft="247dp"/>
 
         <TextView
             android:id="@+id/secondCard"
@@ -84,14 +85,14 @@
             android:text="@string/txtSecond"
             android:textStyle="bold"
             android:layout_marginTop="425dp"
-            android:layout_marginStart="280dp"/>
+            android:layout_marginLeft="245dp"/>
         <TextView
             android:id="@+id/thirdCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txtThird"
             android:layout_marginTop="425dp"
-            android:layout_marginStart="175dp"
+            android:layout_marginLeft="145dp"
             android:textStyle="bold"/>
 
         <Button
@@ -100,21 +101,21 @@
             android:layout_height="wrap_content"
             android:text="@string/txtLow"
             android:layout_marginTop="450dp"
-            android:layout_marginStart="50dp"/>
+            android:layout_marginLeft="20dp"/>
         <Button
             android:id="@+id/higherButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txtHigh"
             android:layout_marginTop="450dp"
-            android:layout_marginStart="275dp"/>
+            android:layout_marginLeft="245dp"/>
         <Button
             android:id="@+id/startButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txtStart"
             android:layout_marginTop="500dp"
-            android:layout_marginStart="160dp"/>
+            android:layout_marginLeft="135dp"/>
 
 <!--        Third Card-->
         <ImageView
@@ -123,7 +124,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
-            android:layout_marginStart="160dp"/>
+            android:layout_marginLeft="135dp"/>
 
 
 <!--        Higher/Lower/Win/Lose-->
@@ -133,7 +134,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txtHiLow"
             android:layout_marginTop="460dp"
-            android:layout_marginStart="145dp"
+            android:layout_marginLeft="115dp"
             android:textColor="@color/black"
             android:fontFamily="serif"
             android:textStyle="bold"/>
@@ -143,7 +144,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txtWon"
             android:layout_marginTop="175dp"
-            android:layout_marginStart="175dp"
+            android:layout_marginLeft="145dp"
             android:fontFamily="serif"
             android:textStyle="bold"
             android:textColor="@color/green"/>
@@ -152,7 +153,7 @@
             android:id="@+id/loseText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="175dp"
+            android:layout_marginStart="145dp"
             android:layout_marginTop="175dp"
             android:fontFamily="serif"
             android:text="@string/txtLost"
@@ -173,9 +174,9 @@
             android:id="@+id/chipNumberText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:layout_marginTop="650dp"
             android:layout_marginStart="110dp"
-            android:text="0"
+            android:text="1000"
             android:textSize="25sp"
             android:fontFamily="@font/sitka"/>
 
@@ -186,7 +187,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/startButton"
             android:layout_marginTop="3dp"
-            android:layout_marginStart="125dp"
+            android:layout_marginLeft="110dp"
             android:hint="@string/txtInput"
             android:textColor="@color/black"
             android:textAlignment="center"
@@ -210,7 +211,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/lowerButton"
-            android:layout_marginStart="50dp"
+            android:layout_marginLeft="20dp"
             android:text="@string/txtDeal"
             >
 
