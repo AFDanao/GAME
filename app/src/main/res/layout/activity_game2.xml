@@ -67,7 +67,8 @@
             android:text="@string/txtFirst"
             android:layout_marginTop="425dp"
             android:layout_marginLeft="28dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
 <!--        Second Card-->
         <ImageView
@@ -85,7 +86,8 @@
             android:text="@string/txtSecond"
             android:textStyle="bold"
             android:layout_marginTop="425dp"
-            android:layout_marginLeft="245dp"/>
+            android:layout_marginLeft="245dp"
+            android:textColor="@color/black"/>
         <TextView
             android:id="@+id/thirdCard"
             android:layout_width="wrap_content"
@@ -93,7 +95,8 @@
             android:text="@string/txtThird"
             android:layout_marginTop="425dp"
             android:layout_marginLeft="145dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
 
         <Button
             android:id="@+id/lowerButton"
@@ -168,7 +171,8 @@
             android:textSize="25sp"
             android:layout_marginTop="650dp"
             android:layout_marginLeft="25dp"
-            android:fontFamily="@font/sitka"/>
+            android:fontFamily="@font/sitka"
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/chipNumberText"
@@ -178,7 +182,8 @@
             android:layout_marginStart="110dp"
             android:text="1000"
             android:textSize="25sp"
-            android:fontFamily="@font/sitka"/>
+            android:fontFamily="@font/sitka"
+            android:textColor="@color/black"/>
 
 <!--Guess sa third card-->
         <EditText
