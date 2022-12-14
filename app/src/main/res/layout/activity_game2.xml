@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txtBack"
             android:backgroundTint="@color/orange"
-            android:fontFamily="@font/sitka">
+            android:fontFamily="serif">
 
         </Button>
 
@@ -33,23 +33,24 @@
             android:id="@+id/titleText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/sitka"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="serif"
+            android:gravity="center"
             android:text="@string/txtGame2Welcome2"
-            android:textSize="35sp"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="60dp"
             android:textColor="@color/black"
-            android:gravity="center"/>
+            android:textSize="35sp" />
         <TextView
             android:id="@+id/inBetweenText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/sitka"
+            android:fontFamily="serif"
             android:text="@string/txtGame2Welcome"
             android:textSize="15sp"
             android:textStyle="bold"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="145dp"
+            android:layout_below="@+id/titleText"
+            android:layout_centerInParent="true"
             android:textColor="@color/black"
             android:gravity="center"/>
         <ImageView
@@ -57,18 +58,23 @@
             android:contentDescription="@string/txtFirst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
-            android:layout_marginLeft="15dp"/>
+            android:layout_toStartOf="@id/cardThree"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ace_heart"
+            android:layout_marginEnd="20dp"/>
 
         <TextView
             android:id="@+id/firstCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txtFirst"
-            android:layout_marginTop="425dp"
-            android:layout_marginLeft="28dp"
+            android:layout_toStartOf="@id/thirdCard"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="45dp"
+            android:layout_below="@id/cardOne"
             android:textStyle="bold"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
 
 <!--        Second Card-->
         <ImageView
@@ -76,8 +82,10 @@
             android:contentDescription="@string/txtSecond"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
-            android:layout_marginLeft="247dp"/>
+            android:layout_toEndOf="@id/cardThree"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ace_heart"
+            android:layout_marginStart="20dp"/>
 
         <TextView
             android:id="@+id/secondCard"
@@ -85,40 +93,59 @@
             android:layout_height="wrap_content"
             android:text="@string/txtSecond"
             android:textStyle="bold"
-            android:layout_marginTop="425dp"
-            android:layout_marginLeft="245dp"
-            android:textColor="@color/black"/>
+            android:layout_toEndOf="@id/thirdCard"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="37dp"
+            android:layout_below="@id/cardTwo"
+            android:textColor="@color/black"
+            android:fontFamily="serif"/>
+
         <TextView
             android:id="@+id/thirdCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/cardThree"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
             android:text="@string/txtThird"
-            android:layout_marginTop="425dp"
-            android:layout_marginLeft="145dp"
+            android:textColor="@color/black"
             android:textStyle="bold"
-            android:textColor="@color/black"/>
+            android:fontFamily="serif"/>
 
         <Button
             android:id="@+id/lowerButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/txtLow"
-            android:layout_marginTop="450dp"
-            android:layout_marginLeft="20dp"/>
+            android:layout_below="@id/firstCard"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/highLowText"
+            android:backgroundTint="@color/orange"
+            android:fontFamily="serif"
+            android:text="@string/txtLow" />
         <Button
             android:id="@+id/higherButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txtHigh"
-            android:layout_marginTop="450dp"
-            android:layout_marginLeft="245dp"/>
+            android:layout_toEndOf="@id/highLowText"
+            android:layout_below="@id/secondCard"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="@color/orange"
+            android:fontFamily="serif"/>
+
         <Button
             android:id="@+id/startButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/txtStart"
-            android:layout_marginTop="500dp"
-            android:layout_marginLeft="135dp"/>
+            android:layout_below="@id/highLowText"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/orange"
+            android:fontFamily="serif"
+            android:text="@string/txtStart" />
 
 <!--        Third Card-->
         <ImageView
@@ -126,8 +153,8 @@
             android:contentDescription="@string/txtThird"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
-            android:layout_marginLeft="135dp"/>
+            android:layout_centerInParent="true"
+            android:src="@drawable/ace_heart"/>
 
 
 <!--        Higher/Lower/Win/Lose-->
@@ -135,19 +162,21 @@
             android:id="@+id/highLowText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/txtHiLow"
-            android:layout_marginTop="460dp"
-            android:layout_marginLeft="115dp"
-            android:textColor="@color/black"
+            android:layout_below="@id/thirdCard"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
             android:fontFamily="serif"
-            android:textStyle="bold"/>
+            android:text="@string/txtHiLow"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
         <TextView
             android:id="@+id/winText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/txtWon"
-            android:layout_marginTop="175dp"
-            android:layout_marginLeft="145dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/inBetweenText"
+            android:layout_centerInParent="true"
             android:fontFamily="serif"
             android:textStyle="bold"
             android:textColor="@color/green"/>
@@ -156,8 +185,9 @@
             android:id="@+id/loseText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="145dp"
-            android:layout_marginTop="175dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/inBetweenText"
+            android:layout_centerInParent="true"
             android:fontFamily="serif"
             android:text="@string/txtLost"
             android:textColor="@color/red"
@@ -167,22 +197,23 @@
             android:id="@+id/chipsText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Chips: "
+            android:text="Chips:"
+            android:layout_marginTop="20dp"
             android:textSize="25sp"
-            android:layout_marginTop="650dp"
-            android:layout_marginLeft="25dp"
-            android:fontFamily="@font/sitka"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/winText"
+            android:fontFamily="serif"
             android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/chipNumberText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="650dp"
-            android:layout_marginStart="110dp"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/chipsText"
             android:text="1000"
             android:textSize="25sp"
-            android:fontFamily="@font/sitka"
+            android:fontFamily="serif"
             android:textColor="@color/black"/>
 
 <!--Guess sa third card-->
@@ -191,12 +222,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/startButton"
-            android:layout_marginTop="3dp"
-            android:layout_marginLeft="110dp"
+            android:layout_centerInParent="true"
             android:hint="@string/txtInput"
-            android:textColor="@color/black"
-            android:textAlignment="center"
             android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:fontFamily="serif"
             android:textSize="20sp" />
 
         <Button
@@ -204,10 +235,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/higherButton"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
             android:layout_toEndOf="@id/startButton"
-            android:layout_marginStart="25dp"
-            android:text="@string/txtNoDeal"
-            >
+            android:backgroundTint="@color/orange"
+            android:fontFamily="serif"
+            android:text="@string/txtNoDeal">
 
         </Button>
 
@@ -216,9 +250,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/lowerButton"
-            android:layout_marginLeft="20dp"
-            android:text="@string/txtDeal"
-            >
+            android:layout_centerInParent="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@id/startButton"
+            android:backgroundTint="@color/orange"
+            android:fontFamily="serif"
+            android:text="@string/txtDeal">
 
         </Button>
 

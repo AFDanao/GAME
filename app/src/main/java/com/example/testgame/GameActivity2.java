@@ -244,4 +244,8 @@ public class GameActivity2 extends AppCompatActivity {
             }
         });
     }
+
+    public void btnBack(View view) {
+        finish();
+    }
 }
